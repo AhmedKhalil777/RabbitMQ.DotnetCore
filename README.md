@@ -1,6 +1,6 @@
 # In the Name of ALLAH 
 ## RabbitMQ.DotnetCore
-![](PICS\logo-rabbitmq.png)
+![](PICS/logo-rabbitmq.png)
 > RabbitMQ is the most widely deployed open source message broker.
 ## RabbitMQ supports several messaging protocols, directly and through the use of plugins. This page describes the supported protocols and helps differentiate between them.
 
@@ -18,10 +18,10 @@ RabbitMQ was originally developed to support AMQP 0-9-1.
  ``` 
   docker run -p 5672:5672 -p 15672:15672 rabbitmq:management
   ```
-  ![](PICS\2.PNG)
-  ![](PICS\3.PNG)
+  ![](PICS/2.PNG)
+  ![](PICS/3.PNG)
 
  - then write the code of publish and subscribe application for events
  - the Results of the app :
-   ![](PICS\4.PNG)
+   ![](PICS/4.PNG)
    
