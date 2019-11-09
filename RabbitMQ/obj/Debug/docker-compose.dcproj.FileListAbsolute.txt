@@ -1,0 +1,7 @@
+D:\Projects\RabbitMQ.DotnetCore\RabbitMQ\bin\Debug\RabbitMQ.Reciever.dll
+D:\Projects\RabbitMQ.DotnetCore\RabbitMQ\bin\Debug\RabbitMQ.Sender.dll
+D:\Projects\RabbitMQ.DotnetCore\RabbitMQ\bin\Debug\RabbitMQ.Sender.pdb
+D:\Projects\RabbitMQ.DotnetCore\RabbitMQ\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+D:\Projects\RabbitMQ.DotnetCore\RabbitMQ\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+D:\Projects\RabbitMQ.DotnetCore\RabbitMQ\bin\Debug\RabbitMQ.Reciever.pdb
+D:\Projects\RabbitMQ.DotnetCore\RabbitMQ\obj\Debug\docker-compose.dcproj.CopyComplete

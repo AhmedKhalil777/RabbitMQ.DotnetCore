@@ -1,0 +1,11 @@
+D:\Projects\RabbitMQ.DotnetCore\RabbitMQ\RabbitMQ.Recieve\bin\Debug\netcoreapp2.2\RabbitMQ.Reciever.deps.json
+D:\Projects\RabbitMQ.DotnetCore\RabbitMQ\RabbitMQ.Recieve\bin\Debug\netcoreapp2.2\RabbitMQ.Reciever.runtimeconfig.json
+D:\Projects\RabbitMQ.DotnetCore\RabbitMQ\RabbitMQ.Recieve\bin\Debug\netcoreapp2.2\RabbitMQ.Reciever.runtimeconfig.dev.json
+D:\Projects\RabbitMQ.DotnetCore\RabbitMQ\RabbitMQ.Recieve\bin\Debug\netcoreapp2.2\RabbitMQ.Reciever.dll
+D:\Projects\RabbitMQ.DotnetCore\RabbitMQ\RabbitMQ.Recieve\bin\Debug\netcoreapp2.2\RabbitMQ.Reciever.pdb
+D:\Projects\RabbitMQ.DotnetCore\RabbitMQ\RabbitMQ.Recieve\obj\Debug\netcoreapp2.2\RabbitMQ.Reciever.csprojAssemblyReference.cache
+D:\Projects\RabbitMQ.DotnetCore\RabbitMQ\RabbitMQ.Recieve\obj\Debug\netcoreapp2.2\RabbitMQ.Reciever.csproj.CoreCompileInputs.cache
+D:\Projects\RabbitMQ.DotnetCore\RabbitMQ\RabbitMQ.Recieve\obj\Debug\netcoreapp2.2\RabbitMQ.Reciever.AssemblyInfoInputs.cache
+D:\Projects\RabbitMQ.DotnetCore\RabbitMQ\RabbitMQ.Recieve\obj\Debug\netcoreapp2.2\RabbitMQ.Reciever.AssemblyInfo.cs
+D:\Projects\RabbitMQ.DotnetCore\RabbitMQ\RabbitMQ.Recieve\obj\Debug\netcoreapp2.2\RabbitMQ.Reciever.dll
+D:\Projects\RabbitMQ.DotnetCore\RabbitMQ\RabbitMQ.Recieve\obj\Debug\netcoreapp2.2\RabbitMQ.Reciever.pdb

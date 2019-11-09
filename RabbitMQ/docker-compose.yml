@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  rabbitmq.reciever.api:
+    image: ${DOCKER_REGISTRY-}rabbitmqrecieverapi
+    build:
+      context: .
+      dockerfile: ../Rabbitmq.Reciever.Api/Dockerfile
+    depends_on:
+      - rabbitmq
+      - rabbitmq.sender.api
+
+  rabbitmq.sender.api:
+    image: ${DOCKER_REGISTRY-}rabbitmqsenderapi
+    build:
+      context: .
+      dockerfile: ../Rabbitmq.Sender.Api/Dockerfile
+    depends_on:
+      - rabbitmq
+      
+  rabbitmq:
+    image: rabbitmq:3-management

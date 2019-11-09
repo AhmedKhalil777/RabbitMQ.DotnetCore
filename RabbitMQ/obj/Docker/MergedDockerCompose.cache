@@ -1,0 +1,48 @@
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+    - published: 5672
+      target: 5672
+    - published: 15672
+      target: 15672
+  rabbitmq.reciever.api:
+    build:
+      context: D:\Projects\RabbitMQ.DotnetCore\RabbitMQ
+      dockerfile: ../Rabbitmq.Reciever.Api/Dockerfile
+    depends_on:
+    - rabbitmq
+    - rabbitmq.sender.api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44399'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: rabbitmqrecieverapi
+    ports:
+    - published: 61922
+      target: 80
+    - published: 44399
+      target: 443
+    volumes:
+    - C:\Users\Ahmed\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Ahmed\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  rabbitmq.sender.api:
+    build:
+      context: D:\Projects\RabbitMQ.DotnetCore\RabbitMQ
+      dockerfile: ../Rabbitmq.Sender.Api/Dockerfile
+    depends_on:
+    - rabbitmq
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44328'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: rabbitmqsenderapi
+    ports:
+    - published: 61925
+      target: 80
+    - published: 44328
+      target: 443
+    volumes:
+    - C:\Users\Ahmed\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Ahmed\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
